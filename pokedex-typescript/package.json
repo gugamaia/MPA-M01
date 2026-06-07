@@ -1,0 +1,16 @@
+{
+  "name": "pokedex-typescript",
+  "version": "1.0.0",
+  "description": "Pokédex CLI em Node.js com TypeScript consumindo a PokeAPI",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "tsc",
+    "start": "tsx src/main.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.0.0"
+  }
+}
