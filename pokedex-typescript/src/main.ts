@@ -2,9 +2,9 @@ import { CatalogoPokemon } from "./models/Pokemon";
 import { TerminalController } from "./controllers/TerminalController";
 
 async function main(): Promise<void> {
-  console.log("==============================");
-  console.log("   POKÉDEX TYPESCRIPT LITE    ");
-  console.log("==============================\n");
+  console.log("========================");
+  console.log("   POKÉDEX TYPESCRIPT   ");
+  console.log("========================\n");
 
   const catalogo = new CatalogoPokemon();
   const controller = new TerminalController(catalogo);
