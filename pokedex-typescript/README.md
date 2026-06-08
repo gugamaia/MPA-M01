@@ -161,15 +161,15 @@ Evita falhas do sistema quando um Pokémon não existe ou a API retorna erro.
 ## Conceitos Aplicados
 
 ### Interfaces TypeScript
-- `PokemonResumo` — representa o Pokémon simplificado usado internamente
-- `PokemonApiResponse` — mapeia os campos relevantes do retorno da PokeAPI
+- `PokemonResumo` => representa o Pokémon simplificado usado internamente
+- `PokemonApiResponse` => mapeia os campos relevantes do retorno da PokeAPI
 
 ### Classe
-- `CatalogoPokemon` — gerencia o catálogo com atributo `private`, construtor e métodos tipados (`adicionar`, `listar`, `remover`)
+- `CatalogoPokemon` => gerencia o catálogo com atributo `private`, construtor e métodos tipados (`adicionar`, `listar`, `remover`)
 
 ### Erros Customizados
-- `APIError` — lançado quando a PokeAPI não encontra o Pokémon
-- `LocalBoxError` — lançado quando há falha na leitura/escrita do `pc_box.json`
+- `APIError` => lançado quando a PokeAPI não encontra o Pokémon
+- `LocalBoxError` => lançado quando há falha na leitura/escrita do `pc_box.json`
 
 ### Métodos de Array
 
@@ -276,10 +276,10 @@ remover ID 25
 
 Branches utilizadas:
 
-- `main` — código final estável
-- `develop` — integração das features
-- `feat/pokedex` — desenvolvimento da aplicação
-- `docs/readme` — documentação
+- `main` => código final estável
+- `develop` => integração das features
+- `feat/pokedex` => desenvolvimento da aplicação
+- `docs/readme` => documentação
 
 ---
 
@@ -310,4 +310,4 @@ https://github.com/gugamaia/MPA-M01
 
 **Gustavo Maia**
 
-Projeto desenvolvido para fins acadêmicos — Módulo 01, Curso SCTEC Desenvolvedor Back End Node.
+Projeto desenvolvido para fins acadêmicos — Módulo 01, Curso [SCTEC  Desenvolvedor Back End Node] https://sctec.scti.sc.gov.br.
