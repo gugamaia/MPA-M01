@@ -48,7 +48,6 @@ Construir uma aplicação back-end capaz de:
 | PokeAPI    | API externa de dados de Pokémon  |
 | Git        | Controle de versão               |
 | GitHub     | Hospedagem do repositório        |
-|------------|----------------------------------|
 
 ---
 
@@ -182,7 +181,6 @@ Evita falhas do sistema quando um Pokémon não existe ou a API retorna erro.
 | `forEach()` | Itera e exibe cada Pokémon na listagem             |
 | `reduce()`  | Calcula o peso total do catálogo                   |
 | `every()`   | Valida se todos os Pokémon possuem nome            |
-|-------------|----------------------------------------------------|
 
 ### Async/Await
 Utilizado para realizar chamadas assíncronas à PokeAPI e operações de leitura/escrita no sistema de arquivos.
