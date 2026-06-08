@@ -310,4 +310,4 @@ https://github.com/gugamaia/MPA-M01
 
 **Gustavo Maia**
 
-Projeto desenvolvido para fins acadêmicos — Módulo 01, Curso [SCTEC  Desenvolvedor Back End Node] https://sctec.scti.sc.gov.br.
+Projeto desenvolvido para fins acadêmicos **Módulo 01, Curso SCTEC  Desenvolvedor Back End Node.** - https://sctec.scti.sc.gov.br
