@@ -42,12 +42,12 @@ Construir uma aplicação back-end capaz de:
 
 | Tecnologia | Uso                              |
 |------------|----------------------------------|
+| Git        | Controle de versão               |
+| GitHub     | Hospedagem do repositório        |
 | Node.js    | Ambiente de execução back-end    |
 | TypeScript | Linguagem principal com tipagem  |
 | TSX        | Execução dos arquivos TypeScript |
 | PokeAPI    | API externa de dados de Pokémon  |
-| Git        | Controle de versão               |
-| GitHub     | Hospedagem do repositório        |
 
 ---
 
@@ -174,13 +174,14 @@ Evita falhas do sistema quando um Pokémon não existe ou a API retorna erro.
 
 | Método      | Onde é usado                                       |
 |-------------|----------------------------------------------------|
-| `map()`     | Transforma os tipos retornados pela API em strings |
-| `find()`    | Localiza HP, Ataque e Defesa nos stats da API      |
-| `some()`    | Verifica duplicidade antes de adicionar            |
-| `filter()`  | Remove Pokémon pelo ID                             |
-| `forEach()` | Itera e exibe cada Pokémon na listagem             |
-| `reduce()`  | Calcula o peso total do catálogo                   |
 | `every()`   | Valida se todos os Pokémon possuem nome            |
+| `filter()`  | Remove Pokémon pelo ID                             |
+| `find()`    | Localiza HP, Ataque e Defesa nos stats da API      |
+| `forEach()` | Itera e exibe cada Pokémon na listagem             |
+| `map()`     | Transforma os tipos retornados pela API em strings |
+| `reduce()`  | Calcula o peso total do catálogo                   |
+| `some()`    | Verifica duplicidade antes de adicionar            |
+
 
 ### Async/Await
 Utilizado para realizar chamadas assíncronas à PokeAPI e operações de leitura/escrita no sistema de arquivos.
